@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Система Контроля Доступа - Пользователи</title> 
+<link rel="stylesheet" href="style.css">
+   
+</head>
+<body background = "bg2.gif">
+    <header>
+        <h1><center>Управление пользователями</h1>
+    </header>
+    <main>
+        <center>
+		<br>
+            <h2>Список пользователей</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Фамилия</th>
+                        <th>Логин</th>
+                        <th>Роль</th>
+                        <th>Действия</th>
+                    </tr>
+               </thead>
+			   <tbody>
+			   <br>
+                   <tr>
+                            <td>Иван</td>
+                            <td>Иванов</td>
+                            <td>ivan@example.com</td>
+                            <td>Администратор</td>
+                            <td>
+                                <button>Редактировать</button>
+                                <button>Удалить</button>
+                            </td>
+						<tr>
+							<td>Мизаил</td>
+                            <td>Михайло</td>
+                            <td>miha@example.com</td>
+                            <td>Пользователь</td>
+                            <td>
+                                <button>Редактировать</button>
+                                <button>Удалить</button>
+                            </td>
+							</tr>				
+                
+                        </tbody>
+            </table>	
+            <br><br><br><br><h2>Добавить нового пользователя</h2>
+            <form>
+                <label for="имя">Имя:</label>
+                <input type="text" id="имя" name="имя" required>
+                <label for="фамилия">Фамилия:</label>
+                <input type="text" id="фамилия" name="фамилия" required>
+                <label for="логин">Логин:</label>
+                <input type="text" id="логин" name="логин" required>
+                <label for="роль">Роль:</label>
+                <select id="роль" name="роль" required>
+                    <option value="администратор">Администратор</option>
+                    <option value="пользователь">Пользователь</option>
+                </select>
+                <button type="submit">Добавить</button>
+            </form>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br><br><br><br><br><br><br><br>
+	
+        <p align="right"> &copy; 2023 Система Контроля Доступа</p>
+  
+</body>
+</html>
