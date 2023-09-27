@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Система контроля управления доступом</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body background = "bg.jpg" vlink="#0000FF">
+    <header>
+	<br><br>
+        <h1 style="color:#87CEFA;" ><center>СИСТЕМА КОНТРОЛЯ УПРАВЛЕНИЯ ДОСТУПОМ </h1>
+		<center>
+            <br><br><br><br><br><br><br>
+                 <h1 style = "border: 2px solid #000; padding=20px"><br><a href="главная2.html">Главная</a><br>
+                <a href="пользователи.html">Пользователи</a><br>
+                <a href="/журнал-событий">Журнал Событий</a><br>
+                <a href="/настройки">Настройки</a><br><br></h1>
+            
+    </header>
+	<br><br><br><br><br><br><br><br><br>
+	
+        <p align="right">&copy; 2023 Система Контроля Доступа</p>
+</body>
+</html>
