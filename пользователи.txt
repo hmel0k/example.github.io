@@ -79,7 +79,7 @@
 	<br>
 	<br>
 	<br><br><br><br><br><br><br><br>
-	<p align="right"><a href="главная.html">Вернуться на основную страницу</a></p>
+	<p align="right"><a href="Главная.html">Вернуться на основную страницу</a></p>
         <p align="right"> &copy; 2023 Система Контроля Доступа</p>
   
 </body>
