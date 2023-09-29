@@ -7,7 +7,7 @@
 	
     
 </head>
-<body background = "bg2.gif">
+<body background = "bg.gif">
     <header>
 	
         <h1><center>Управление пользователями</h1>
