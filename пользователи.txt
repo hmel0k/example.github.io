@@ -2,75 +2,85 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Система Контроля Доступа - Пользователи</title> 
-<link rel="stylesheet" href="style.css">
-   
+    <title>РЎРёСЃС‚РµРјР° РљРѕРЅС‚СЂРѕР»СЏ Р”РѕСЃС‚СѓРїР° - РџРѕР»СЊР·РѕРІР°С‚РµР»Рё</title>
+	<link rel="stylesheet" href="style.css">
+	
+    
 </head>
 <body background = "bg2.gif">
     <header>
-        <h1><center>Управление пользователями</h1>
+	
+        <h1><center>РЈРїСЂР°РІР»РµРЅРёРµ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРјРё</h1>
+   
     </header>
+
     <main>
         <center>
 		<br>
-            <h2>Список пользователей</h2>
+            <h2>РЎРїРёСЃРѕРє РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Имя</th>
-                        <th>Фамилия</th>
-                        <th>Логин</th>
-                        <th>Роль</th>
-                        <th>Действия</th>
+                        <th>РРјСЏ</th>
+                        <th>Р¤Р°РјРёР»РёСЏ</th>
+                        <th>Р›РѕРіРёРЅ</th>
+                        <th>Р РѕР»СЊ</th>
+                        <th>Р”РµР№СЃС‚РІРёСЏ</th>
                     </tr>
                </thead>
 			   <tbody>
 			   <br>
                    <tr>
-                            <td>Иван</td>
-                            <td>Иванов</td>
+                            <td>РРІР°РЅ</td>
+                            <td>РРІР°РЅРѕРІ</td>
                             <td>ivan@example.com</td>
-                            <td>Администратор</td>
+                            <td>РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ</td>
                             <td>
-                                <button>Редактировать</button>
-                                <button>Удалить</button>
+                                <button>Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ</button>
+                                <button>РЈРґР°Р»РёС‚СЊ</button>
                             </td>
 						<tr>
-							<td>Мизаил</td>
-                            <td>Михайло</td>
+							<td>РњРёР·Р°РёР»</td>
+                            <td>РњРёС…Р°Р№Р»Рѕ</td>
                             <td>miha@example.com</td>
-                            <td>Пользователь</td>
+                            <td>РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ</td>
                             <td>
-                                <button>Редактировать</button>
-                                <button>Удалить</button>
+                                <button>Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ</button>
+                                <button>РЈРґР°Р»РёС‚СЊ</button>
                             </td>
-							</tr>				
+							</tr>
+							
                 
                         </tbody>
-            </table>	
-            <br><br><br><br><h2>Добавить нового пользователя</h2>
+            </table>
+
+       
+		
+            <br><br><br><br><h2>Р”РѕР±Р°РІРёС‚СЊ РЅРѕРІРѕРіРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ</h2>
             <form>
-                <label for="имя">Имя:</label>
-                <input type="text" id="имя" name="имя" required>
-                <label for="фамилия">Фамилия:</label>
-                <input type="text" id="фамилия" name="фамилия" required>
-                <label for="логин">Логин:</label>
-                <input type="text" id="логин" name="логин" required>
-                <label for="роль">Роль:</label>
-                <select id="роль" name="роль" required>
-                    <option value="администратор">Администратор</option>
-                    <option value="пользователь">Пользователь</option>
+                <label for="РёРјСЏ">РРјСЏ:</label>
+                <input type="text" id="РёРјСЏ" name="РёРјСЏ" required>
+                <label for="С„Р°РјРёР»РёСЏ">Р¤Р°РјРёР»РёСЏ:</label>
+                <input type="text" id="С„Р°РјРёР»РёСЏ" name="С„Р°РјРёР»РёСЏ" required>
+                <label for="Р»РѕРіРёРЅ">Р›РѕРіРёРЅ:</label>
+                <input type="text" id="Р»РѕРіРёРЅ" name="Р»РѕРіРёРЅ" required>
+                <label for="СЂРѕР»СЊ">Р РѕР»СЊ:</label>
+                <select id="СЂРѕР»СЊ" name="СЂРѕР»СЊ" required>
+                    <option value="Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ">РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ</option>
+                    <option value="РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ">РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ</option>
                 </select>
-                <button type="submit">Добавить</button>
+                <button type="submit">Р”РѕР±Р°РІРёС‚СЊ</button>
             </form>
+    
+
+   
 	<br>
 	<br>
 	<br>
 	<br>
 	<br><br><br><br><br><br><br><br>
-	
-        <p align="right"> &copy; 2023 Система Контроля Доступа</p>
+	<p align="right"><a href="РіР»Р°РІРЅР°СЏ.html">Р’РµСЂРЅСѓС‚СЊСЃСЏ РЅР° РѕСЃРЅРѕРІРЅСѓСЋ СЃС‚СЂР°РЅРёС†Сѓ</a></p>
+        <p align="right"> &copy; 2023 РЎРёСЃС‚РµРјР° РљРѕРЅС‚СЂРѕР»СЏ Р”РѕСЃС‚СѓРїР°</p>
   
 </body>
-</html>
+</html> 
